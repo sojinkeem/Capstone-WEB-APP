@@ -8,6 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<!-- Navigation-->
+	<%@include file="header.jsp"%>
 	<!-- 
 	<c:forEach var="offer" items="${offers}">
 		<p><c:out value="${offer}"></c:out></p>

@@ -54,7 +54,7 @@ public class OfferController {
 //					List<Offer> offers = offerService.getCurrent();
 //					model.addAttribute("offers",offers);
 					
-					return "choice";
+					return "pt";
 			}
 	
 	@RequestMapping("/mypage")

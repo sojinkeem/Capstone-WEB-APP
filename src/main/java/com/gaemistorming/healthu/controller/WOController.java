@@ -7,14 +7,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.gaemistorming.healthu.model.Offer;
-import com.gaemistorming.healthu.service.OfferService;
+import com.gaemistorming.healthu.model.Workout;
+import com.gaemistorming.healthu.service.WOService;
 
 @Controller
-public class OfferController {
+public class WOController {
 	
 	@Autowired
-	private OfferService offerService;
+	private WOService woService;
 	
 //	@RequestMapping("/offers")
 //	public String showOffers(Model model) {
@@ -32,12 +32,20 @@ public class OfferController {
 			return "home";
 	}
 	
-	@RequestMapping("/exercise")
-	public String showExercise(Model model) {
+	@RequestMapping("/about")
+	public String showAbout(Model model) {
 //			List<Offer> offers = offerService.getCurrent();
 //			model.addAttribute("offers",offers);
 			
-			return "exercise";
+			return "about";
+	}
+	
+	@RequestMapping("/workout")
+	public String showWorkout(Model model) {
+//			List<Offer> offers = offerService.getCurrent();
+//			model.addAttribute("offers",offers);
+			
+			return "workout";
 	}
 	
 	
@@ -79,6 +87,22 @@ public class OfferController {
 //			model.addAttribute("offers",offers);
 			
 			return "settings";
+	}
+	
+	@RequestMapping("/signin")
+	public String showSignin(Model model) {
+//			List<Offer> offers = offerService.getCurrent();
+//			model.addAttribute("offers",offers);
+			
+			return "signin";
+	}
+	
+	@RequestMapping("/signup")
+	public String showSignup(Model model) {
+//			List<Offer> offers = offerService.getCurrent();
+//			model.addAttribute("offers",offers);
+			
+			return "signup";
 	}
 
 	

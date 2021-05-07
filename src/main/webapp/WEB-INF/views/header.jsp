@@ -44,7 +44,7 @@
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/about">About</a></li>
 					<li class="nav-item dropdown"><a class="nav-link"
-						href="${pageContext.request.contextPath}/exercise">Exercise</a>
+						href="${pageContext.request.contextPath}/workout">Workout</a>
 						<div class="dropdown-content">
 							<a href="${pageContext.request.contextPath}/choice">Choice</a> 
 							<a href="${pageContext.request.contextPath}/pt">PT</a>
@@ -63,9 +63,9 @@
 			style="float: right">
 			<ul class="navbar-nav">
 				<li class="nav-item"><a class="nav-link"
-					href="${pageContext.request.contextPath}/home">LOGIN</a></li>
+					href="${pageContext.request.contextPath}/signin">LOGIN</a></li>
 				<li class="nav-item"><a class="nav-link"
-					href="${pageContext.request.contextPath}/exercise">SIGNUP</a></li>
+					href="${pageContext.request.contextPath}/signup">SIGNUP</a></li>
 			</ul>
 		</div>
 	</nav>

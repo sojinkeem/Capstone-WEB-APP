@@ -10,9 +10,9 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 
-public class Offer {
+public class Workout {
 	
-	// ¿ì¸®´Â »ç¿ë ¾ÈÇÏ´Â °Å, DB ¼³Á¤ ÈÄ ´Ù½Ã ÀÛ¼ºÇÒ µí
+	// ï¿½ì¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½, DB ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½Û¼ï¿½ï¿½ï¿½ ï¿½ï¿½
 //	private int id;
 //	private String name;
 //	private String email;

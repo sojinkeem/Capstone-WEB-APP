@@ -17,11 +17,22 @@
 	</c:forEach>
 	-->
 	<header
-		class="masthead justify-content-center bg-primary text-dark text-center">
+		class="justify-content-center bg-primary text-dark text-center"> <!-- masthead  -->
+		<section class="page-section portfolio" id="portfolio">
 		<div class="container d-flex align-items-center flex-column">
-			<h1>하이퍼링크로 넘어 온 페이지_ exercise</h1>
+			<h1>Workout</h1>
+			<p>
+				<a href="${pageContext.request.contextPath}/choice"><h1>초이스</h1></a><br>
+				<h3>선택 운동은 선택하는 거임</h3>	
+			</p>
+			<br>
+			<p>
+				<a href="${pageContext.request.contextPath}pt"><h1>오늘의 운동</h1></a><br>
+				<h3>PT는 피티</h3>
+			</p>
 
 		</div>
+		</section>
 	</header>
 
 </body>

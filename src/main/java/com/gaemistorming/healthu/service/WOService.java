@@ -5,11 +5,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gaemistorming.healthu.dao.OfferDao;
-import com.gaemistorming.healthu.model.Offer;
+import com.gaemistorming.healthu.dao.WODao;
+import com.gaemistorming.healthu.model.Workout;
 
 @Service
-public class OfferService {
+public class WOService {
 	
 //	@Autowired
 //	private OfferDao offerDao;

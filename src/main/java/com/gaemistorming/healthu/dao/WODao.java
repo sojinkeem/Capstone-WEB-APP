@@ -12,11 +12,11 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-import com.gaemistorming.healthu.model.Offer;
+import com.gaemistorming.healthu.model.Workout;
 
 //@Component("offerDao")
 @Repository 
-public class OfferDao {
+public class WODao {
 //	private JdbcTemplate jdbcTemplate;
 //
 //	@Autowired

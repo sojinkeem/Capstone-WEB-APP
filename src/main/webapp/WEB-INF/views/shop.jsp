@@ -10,7 +10,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-<title>MyPage</title>
+<title>Store</title>
 </head>
 <body id="page-top">
 	<!-- Navigation-->
@@ -51,14 +51,14 @@
 		<div class="container">
 			<!-- Portfolio Section Heading-->
 			<h2
-				class="page-section-heading text-center text-uppercase text-secondary mb-0">좋아하는
-				운동 리스트</h2>
+				class="page-section-heading text-center text-uppercase text-secondary mb-0">
+				캐릭터 리스트</h2>
 
 			<!-- Icon Divider-->
 			<div class="divider-custom">
 				<div class="divider-custom-line"></div>
 				<div class="divider-custom-icon">
-					<i class="fas fa-star"></i>
+					<i class="fas fa-heart"></i>
 				</div>
 				<div class="divider-custom-line"></div>
 			</div>

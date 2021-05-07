@@ -9,193 +9,144 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-<title>CHOICE</title>
-
-<!-- Favicons, 홈 페이지 아이콘 -->
-<link rel="icon" href="resources/images/favicon.ico">
-
-<!-- Font Awesome icons (free version)-->
-<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
-	crossorigin="anonymous"></script>
-<!-- Google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-	rel="stylesheet" type="text/css" />
-<link
-	href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
-	rel="stylesheet" type="text/css" />
-<!-- Core theme CSS (includes Bootstrap)-->
-<link href="resources/css/styles.css" rel="stylesheet" />
-<link href="resources/css/collapse.css" rel="stylesheet" />
+<title>Choice :: 운동 목록</title>
 </head>
 <body id="page-top">
 	<!-- Navigation-->
 	<%@include file="header.jsp"%>
 	<!-- Masthead-->
-	<header class="masthead bg-primary text-white text-center">
-		<div class="container d-flex align-items-center flex-column">
-			<!-- Masthead Avatar Image-->
-			<img class="masthead-avatar mb-5"
-				src="resources/images/characterImage/aeong_cheese.png" alt="..." />
-			<!-- Masthead Heading-->
-			<h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
-			<!-- Icon Divider-->
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line"></div>
-				<div class="divider-custom-icon">
-					<i class="fas fa-star"></i>
+	<header class=" bg-primary text-white text-center"> <!-- masthead -->
+		<!-- <div class="container d-flex align-items-center flex-column">
+			<h1>Choice 운동</h1>
+			<h2>GRID 들어갈 곳</h2>
+		</div> -->
+		<!-- Portfolio Section-->
+		<section class="page-section portfolio" id="portfolio">
+			<div class="container">
+				<!-- Portfolio Section Heading-->
+				<h2
+					class="page-section-heading text-center  text-secondary mb-0"> <!-- text-uppercase -->
+					운동 목록</h2>
+	
+				<!-- Icon Divider-->
+				<div class="divider-custom">
+					<div class="divider-custom-line"></div>
+					<div class="divider-custom-icon">
+						<i class="fas fa-circle"></i>
+					</div>
+					<div class="divider-custom-line"></div>
 				</div>
-				<div class="divider-custom-line"></div>
+	
+				<!-- Portfolio Grid Items-->
+				<div class="row justify-content-center">
+	
+					<!-- Portfolio Item 1-->
+					<div class="col-md-6 col-lg-4 mb-5">
+						<div class="portfolio-item mx-auto" data-toggle="modal"
+							data-target="#portfolioModal1">
+							<div
+								class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<div
+									class="portfolio-item-caption-content text-center text-white">
+									<i class="fas fa-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid"
+								src="resources/assets/img/portfolio/cabin.png" alt="..." />
+						</div>
+					</div>
+	
+					<!-- Portfolio Item 2-->
+					<div class="col-md-6 col-lg-4 mb-5">
+						<div class="portfolio-item mx-auto" data-toggle="modal"
+							data-target="#portfolioModal2">
+							<div
+								class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<div
+									class="portfolio-item-caption-content text-center text-white">
+									<i class="fas fa-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid"
+								src="resources/assets/img/portfolio/cake.png" alt="..." />
+						</div>
+					</div>
+	
+					<!-- Portfolio Item 3-->
+					<div class="col-md-6 col-lg-4 mb-5">
+						<div class="portfolio-item mx-auto" data-toggle="modal"
+							data-target="#portfolioModal3">
+							<div
+								class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<div
+									class="portfolio-item-caption-content text-center text-white">
+									<i class="fas fa-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid"
+								src="resources/assets/img/portfolio/circus.png" alt="..." />
+						</div>
+					</div>
+	
+					<!-- Portfolio Item 4-->
+					<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+						<div class="portfolio-item mx-auto" data-toggle="modal"
+							data-target="#portfolioModal4">
+							<div
+								class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<div
+									class="portfolio-item-caption-content text-center text-white">
+									<i class="fas fa-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid"
+								src="resources/assets/img/portfolio/game.png" alt="..." />
+						</div>
+					</div>
+	
+					<!-- Portfolio Item 5-->
+					<div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+						<div class="portfolio-item mx-auto" data-toggle="modal"
+							data-target="#portfolioModal5">
+							<div
+								class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<div
+									class="portfolio-item-caption-content text-center text-white">
+									<i class="fas fa-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid"
+								src="resources/assets/img/portfolio/safe.png" alt="..." />
+						</div>
+					</div>
+	
+					<!-- Portfolio Item 6-->
+					<div class="col-md-6 col-lg-4">
+						<div class="portfolio-item mx-auto" data-toggle="modal"
+							data-target="#portfolioModal6">
+							<div
+								class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<div
+									class="portfolio-item-caption-content text-center text-white">
+									<i class="fas fa-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid"
+								src="resources/assets/img/portfolio/submarine.png" alt="..." />
+						</div>
+					</div>
+	
+				</div>
 			</div>
-			<!-- Masthead Subheading-->
-			<p class="masthead-subheading font-weight-light mb-0">Graphic
-				Artist - Web Designer - Illustrator</p>
-		</div>
+		</section>
 	</header>
-	<!-- Portfolio Section-->
-	<section class="page-section portfolio" id="portfolio">
-		<div class="container">
-			<!-- Portfolio Section Heading-->
-			<h2
-				class="page-section-heading text-center text-uppercase text-secondary mb-0">운동
-				목록</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom">
-				<div class="divider-custom-line"></div>
-				<div class="divider-custom-icon">
-					<i class="fas fa-star"></i>
-				</div>
-				<div class="divider-custom-line"></div>
-			</div>
-			<!-- Portfolio Grid Items-->
-			<div class="row justify-content-center">
-				<!-- Portfolio Item 1-->
-				<div class="col-md-6 col-lg-4 mb-5">
-					<div class="portfolio-item mx-auto" data-toggle="modal"
-						data-target="#portfolioModal1">
-						<div
-							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div
-								class="portfolio-item-caption-content text-center text-white">
-								<i class="fas fa-plus fa-3x"></i>
-							</div>
-						</div>
-						<img class="img-fluid"
-							src="resources/assets/img/portfolio/cabin.png" alt="..." />
-					</div>
-				</div>
-				<!-- Portfolio Item 2-->
-				<div class="col-md-6 col-lg-4 mb-5">
-					<div class="portfolio-item mx-auto" data-toggle="modal"
-						data-target="#portfolioModal2">
-						<div
-							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div
-								class="portfolio-item-caption-content text-center text-white">
-								<i class="fas fa-plus fa-3x"></i>
-							</div>
-						</div>
-						<img class="img-fluid"
-							src="resources/assets/img/portfolio/cake.png" alt="..." />
-					</div>
-				</div>
-				<!-- Portfolio Item 3-->
-				<div class="col-md-6 col-lg-4 mb-5">
-					<div class="portfolio-item mx-auto" data-toggle="modal"
-						data-target="#portfolioModal3">
-						<div
-							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div
-								class="portfolio-item-caption-content text-center text-white">
-								<i class="fas fa-plus fa-3x"></i>
-							</div>
-						</div>
-						<img class="img-fluid"
-							src="resources/assets/img/portfolio/circus.png" alt="..." />
-					</div>
-				</div>
-				<!-- Portfolio Item 4-->
-				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-					<div class="portfolio-item mx-auto" data-toggle="modal"
-						data-target="#portfolioModal4">
-						<div
-							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div
-								class="portfolio-item-caption-content text-center text-white">
-								<i class="fas fa-plus fa-3x"></i>
-							</div>
-						</div>
-						<img class="img-fluid"
-							src="resources/assets/img/portfolio/game.png" alt="..." />
-					</div>
-				</div>
-				<!-- Portfolio Item 5-->
-				<div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-					<div class="portfolio-item mx-auto" data-toggle="modal"
-						data-target="#portfolioModal5">
-						<div
-							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div
-								class="portfolio-item-caption-content text-center text-white">
-								<i class="fas fa-plus fa-3x"></i>
-							</div>
-						</div>
-						<img class="img-fluid"
-							src="resources/assets/img/portfolio/safe.png" alt="..." />
-					</div>
-				</div>
-				<!-- Portfolio Item 6-->
-				<div class="col-md-6 col-lg-4">
-					<div class="portfolio-item mx-auto" data-toggle="modal"
-						data-target="#portfolioModal6">
-						<div
-							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div
-								class="portfolio-item-caption-content text-center text-white">
-								<i class="fas fa-plus fa-3x"></i>
-							</div>
-						</div>
-						<img class="img-fluid"
-							src="resources/assets/img/portfolio/submarine.png" alt="..." />
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
+	
+	
+	
 
 	<!-- Footer-->
-	<footer class="footer text-center">
-		<div class="container">
-			<div class="row">
-				<!-- Footer Location-->
-				<div class="col-lg-4 mb-5 mb-lg-0">
-					<h4 class="text-uppercase mb-4">Location</h4>
-					<p class="lead mb-0">
-						2215 John Daniel Drive <br /> Clark, MO 65243
-					</p>
-				</div>
-				<!-- Footer Social Icons-->
-				<div class="col-lg-4 mb-5 mb-lg-0">
-					<h4 class="text-uppercase mb-4">Around the Web</h4>
-					<a class="btn btn-outline-light btn-social mx-1" href="#!"><i
-						class="fab fa-fw fa-facebook-f"></i></a> <a
-						class="btn btn-outline-light btn-social mx-1" href="#!"><i
-						class="fab fa-fw fa-twitter"></i></a> <a
-						class="btn btn-outline-light btn-social mx-1" href="#!"><i
-						class="fab fa-fw fa-linkedin-in"></i></a> <a
-						class="btn btn-outline-light btn-social mx-1" href="#!"><i
-						class="fab fa-fw fa-dribbble"></i></a>
-				</div>
-				<!-- Footer About Text-->
-				<div class="col-lg-4">
-					<h4 class="text-uppercase mb-4">About Freelancer</h4>
-					<p class="lead mb-0">
-						Freelance is a free to use, MIT licensed Bootstrap theme created
-						by <a href="http://startbootstrap.com">Start Bootstrap</a> .
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<%@include file="footer.jsp"%>
 	<!-- Copyright Section-->
 	<div class="copyright py-4 text-center text-white">
 		<div class="container">

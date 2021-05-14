@@ -22,19 +22,30 @@
 				</div>
 				<div class="divider-custom-line"></div>
 			</div>
+			
+			
 
-			<div class="container d-flex align-items-center flex-column">
-				<h1>로긍니차아앙</h1>
-				<table class="table">
-				<tr>
-				<td style="text-align:right"> <h4 style="display:inline"> ID </h4> </td>
-				<td> <input> </td>
+			<div class="table-responsive control-group">
+				<div class="form-group floating-label-form-group controls mb-0 pb-2">
+				<form>
+				<table style="margin-left: auto; margin-right: auto;">
+				<tr style="border: 10px solid transparent">
+				<td style="text-align:right"> <h4 style="display:inline"> IDㅤ </h4> </td>
+				<td> <input type="text" class="form-control" 
+						style="background-color: white; width:250px;" />
 				</tr>
 				<tr>
-				<td style="text-align:right"> <h4 style="display:inline"> PW </h4> </td>
-				<td> <input type="password"> </td>
+				<td style="text-align:right"> <h4 style="display:inline"> PWㅤ </h4> </td>
+				<td> <input type="password" class="form-control" 
+						style="background-color: white; width:250px;"  />
+				</tr>
+				<tr>
+				<td colspan="2"><br><button class="btn btn-primary btn-xl" id="sendLoginButton" 
+						type="submit">로그인</button> </td>
 				</tr>
 				</table>
+				</form>
+				</div>
 				
 			</div>
 			

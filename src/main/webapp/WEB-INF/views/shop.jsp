@@ -16,43 +16,21 @@
 	<!-- Navigation-->
 	<%@include file="header.jsp"%>
 	<!-- Masthead-->
-	<header
+	<!--  <header
 		class="masthead justify-content-center bg-primary text-dark text-center">
 		<div class="container d-flex align-items-center flex-column">
-			<!-- Masthead Avatar Image-->
-			<div class="row">
-				<div class="col-4">
-					<img class="masthead-avatar mb-5"
-						src="resources/images/characterImage/aeong_cheese.png" alt="..." />
-				</div>
-				<!-- Masthead Heading-->
-				<div class="col-8">
-					<h4 class="masthead-heading font-weight-normal">닉네임: 애옹쓰</h4>
-					<h4 class="masthead-heading font-weight-normal">키: 25cm</h4>
-					<h4 class="masthead-heading font-weight-normal">체중: 3.5kg</h4>
-					<!-- Icon Divider-->
-					<div class="divider-custom divider-light">
-						<div class="divider-custom-line"></div>
-						<div class="divider-custom-icon">
-							<i class="fas fa-star"></i>
-						</div>
-						<div class="divider-custom-line"></div>
-					</div>
-					<!-- Masthead Subheading-->
-					<p class="masthead-subheading font-weight-light text-white mb-0">오늘
-						하루도 즐겁게 운동합시다:)</p>
-				</div>
-			</div>
+			
 		</div>
-	</header>
+	</header> -->
+	<!-- </header> -->
 
 	<!-- Portfolio Section-->
-	<section class="page-section portfolio" id="portfolio">
+	<section class="page-section portfolio bg-primary" id="portfolio">
 		<div class="container">
 			<!-- Portfolio Section Heading-->
 			<h2
 				class="page-section-heading text-center text-uppercase text-secondary mb-0">
-				캐릭터 리스트</h2>
+				캐릭터 목록</h2>
 
 			<!-- Icon Divider-->
 			<div class="divider-custom">
@@ -78,7 +56,8 @@
 							</div>
 						</div>
 						<img class="img-fluid"
-							src="resources/assets/img/portfolio/cabin.png" alt="..." />
+							src="resources/images/characterImage/aeong_cheese.png" alt="..." />
+							<h3 style="text-align:center">치즈 애옹</h3>
 					</div>
 				</div>
 
@@ -93,8 +72,9 @@
 								<i class="fas fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img class="img-fluid"
-							src="resources/assets/img/portfolio/cake.png" alt="..." />
+						<img class="img-fluid" 
+							src="resources/images/characterImage/aeong_tuxedo.png" alt="..." />
+						<h3 style="text-align:center">턱시도 애옹</h3>
 					</div>
 				</div>
 
@@ -110,12 +90,13 @@
 							</div>
 						</div>
 						<img class="img-fluid"
-							src="resources/assets/img/portfolio/circus.png" alt="..." />
+							src="resources/images/characterImage/banana.png" alt="..." />
+							<h3 style="text-align:center">바나나</h3>
 					</div>
 				</div>
 
 				<!-- Portfolio Item 4-->
-				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="portfolio-item mx-auto" data-toggle="modal"
 						data-target="#portfolioModal4">
 						<div
@@ -126,12 +107,13 @@
 							</div>
 						</div>
 						<img class="img-fluid"
-							src="resources/assets/img/portfolio/game.png" alt="..." />
+							src="resources/images/characterImage/cookieCandy.png" alt="..." />
+							<h3 style="text-align:center">한입거리</h3>
 					</div>
 				</div>
 
 				<!-- Portfolio Item 5-->
-				<div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="portfolio-item mx-auto" data-toggle="modal"
 						data-target="#portfolioModal5">
 						<div
@@ -142,7 +124,8 @@
 							</div>
 						</div>
 						<img class="img-fluid"
-							src="resources/assets/img/portfolio/safe.png" alt="..." />
+							src="resources/images/characterImage/cowboy.png" alt="..." />
+							<h3 style="text-align:center">우디</h3>
 					</div>
 				</div>
 
@@ -158,13 +141,66 @@
 							</div>
 						</div>
 						<img class="img-fluid"
-							src="resources/assets/img/portfolio/submarine.png" alt="..." />
+							src="resources/images/characterImage/gongdaesang.png" alt="..." />
+							<h3 style="text-align:center">공대생</h3>
+					</div>
+				</div>
+				
+				<!-- Portfolio Item 7-->
+				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+					<div class="portfolio-item mx-auto" data-toggle="modal"
+						data-target="#portfolioModal7">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid"
+							src="resources/images/characterImage/haribo.png" alt="..." />
+							<h3 style="text-align:center">하리보</h3>
+					</div>
+				</div>
+				
+				<!-- Portfolio Item 8-->
+				<div class="col-md-6 col-lg-4 mb-md-0">
+					<div class="portfolio-item mx-auto" data-toggle="modal"
+						data-target="#portfolioModal8">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid"
+							src="resources/images/characterImage/military.png" alt="..." />
+							<h3 style="text-align:center">군인</h3>
+					</div>
+				</div>
+				
+				<!-- Portfolio Item 9-->
+				<div class="col-md-6 col-lg-4">
+					<div class="portfolio-item mx-auto" data-toggle="modal"
+						data-target="#portfolioModal9">
+						<div
+							class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+							<div
+								class="portfolio-item-caption-content text-center text-white">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid"
+							src="resources/images/characterImage/sangsang.png" alt="..." />
+							<h3 style="text-align:center">부기</h3>
 					</div>
 				</div>
 
 			</div>
 		</div>
 	</section>
+
 
 	<!-- About Section-->
 	<section class="page-section bg-primary text-white mb-0" id="about">

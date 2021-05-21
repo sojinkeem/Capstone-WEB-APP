@@ -4,7 +4,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
+<link rel="icon" href="resources/images/favicon.ico">
 <title>Workout</title>
 </head>
 <body>

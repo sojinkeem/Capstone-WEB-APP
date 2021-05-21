@@ -62,6 +62,7 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive"
 			style="float: right">
 			<ul class="navbar-nav">
+				<!-- if login is completed, change these into LOGOUT -->
 				<li class="nav-item"><a class="nav-link"
 					href="${pageContext.request.contextPath}/signin">LOGIN</a></li>
 				<li class="nav-item"><a class="nav-link"

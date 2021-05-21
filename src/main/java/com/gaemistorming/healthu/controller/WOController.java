@@ -105,6 +105,130 @@ public class WOController {
 			return "signup";
 	}
 
-	
+	// choice 운동 mapping
+	@RequestMapping("/backwardLunge")
+	public String showBackwardLunge(Model model) {
+		return "choice/backwardLunge";
+	}
+
+	@RequestMapping("/bentKneePushCrunch")
+	public String showbBentKneePushCrunch(Model model) {
+		return "choice/bentKneePushCrunch";
+	}
+
+	@RequestMapping("/chairLunge")
+	public String showChairLunge(Model model) {
+		return "choice/chairLunge";
+	}
+
+	@RequestMapping("/chairSquat")
+	public String showChairSquat(Model model) {
+		return "choice/chairSquat";
+	}
+
+	@RequestMapping("/dumbbellDeadlift")
+	public String showDumbbellDeadlift(Model model) {
+		return "choice/dumbbellDeadlift";
+	}
+
+	@RequestMapping("/dumbbellThruster")
+	public String showDumbbellThruster(Model model) {
+		return "choice/dumbbellThruster";
+	}
+
+	@RequestMapping("/frontRaise")
+	public String showFrontRaise(Model model) {
+		return "choice/frontRaise";
+	}
+
+	@RequestMapping("/goodMorning")
+	public String showGoodMorning(Model model) {
+		return "choice/goodMorning";
+	}
+
+	@RequestMapping("/hipBridge")
+	public String showHipBridge(Model model) {
+		return "choice/hipBridge";
+	}
+
+	@RequestMapping("/kickAlternateToeTouch")
+	public String showKickAlternateToeTouch(Model model) {
+		return "choice/kickAlternateToeTouch";
+	}
+
+	@RequestMapping("/kneePushUp")
+	public String showKneePushUp(Model model) {
+		return "choice/kneePushUp";
+	}
+
+	@RequestMapping("/lunge")
+	public String showLunge(Model model) {
+		return "choice/lunge";
+	}
+
+	@RequestMapping("/lyingHipExtension")
+	public String showLyingHipExtension(Model model) {
+		return "choice/lyingHipExtension";
+	}
+
+	@RequestMapping("/quarterSquat")
+	public String showQuarterSquat(Model model) {
+		return "choice/querterSquat";
+	}
+
+	@RequestMapping("/sideKick")
+	public String showSideKick(Model model) {
+		return "choice/sideKick";
+	}
+
+	@RequestMapping("/sideKneeUp")
+	public String showSideKneeUp(Model model) {
+		return "choice/sideKneeUp";
+	}
+
+	@RequestMapping("/sideLateralRaise")
+	public String showSideLateralRaise(Model model) {
+		return "choice/sideLateralRaise";
+	}
+
+	@RequestMapping("/sideLunge")
+	public String showSideLunge(Model model) {
+		return "choice/sideLunge";
+	}
+
+	@RequestMapping("/squat")
+	public String showSquat(Model model) {
+		return "choice/squat";
+	}
+
+	@RequestMapping("/standingPulldown")
+	public String showStandingPulldown(Model model) {
+		return "choice/standingPulldown";
+	}
+
+	@RequestMapping("/standingShoulderPress")
+	public String showStandingShoulderPress(Model model) {
+		return "choice/standingShoulderPress";
+	}
+
+	@RequestMapping("/standingSideLegRaises")
+	public String showStandingSideLegRaises(Model model) {
+		return "choice/standingSideLegRaises";
+	}
+
+	@RequestMapping("/stepUp")
+	public String showStepUp(Model model) {
+		return "choice/stepUp";
+	}
+
+	@RequestMapping("/wideSquat")
+	public String showStandingWideSquat(Model model) {
+		return "choice/wideSquat";
+	}
+
+	@RequestMapping("/choice2")
+	public String showChoice2(Model model) {
+		return "choice2";
+	}
 	
 }

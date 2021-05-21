@@ -63,6 +63,30 @@ function monthDay(sMonth) {
 
 }
 
+function WriteHeightOptions(HeightAhead) {
+	line = "";
+	Height = 140;
+	for (i=0; i<HeightAhead; i++) {
+	    line += "<option value='";
+	    line += Height + i;
+	    line += "'>"
+	    line += Height + i;
+	    line += "cm</option>";
+	} return line;
+}
+
+function WriteWeightOptions(WeightAhead) {
+	line = "";
+	Weight = 30;
+	for (i=0; i<WeightAhead; i++) {
+	    line += "<option value='";
+	    line += Weight + i;
+	    line += "'>"
+	    line += Weight + i;
+	    line += "kg</option>";
+	} return line;
+}
+
 </script>
 
 <title>HealthU :: 회원가입</title>
@@ -98,6 +122,7 @@ function monthDay(sMonth) {
 						<td style="text-align:right"> <h5 style="display:inline"> IDㅤ </h5> </td>
 						<td> <input type="text" class="form-control" 
 								style="background-color: white; width:250px;"> </td>
+						<td> <button type="submit" class="btn-buy" value="">중복체크</button></td>
 						</tr>
 						
 						<tr style="border: 10px solid transparent">
@@ -115,7 +140,7 @@ function monthDay(sMonth) {
 						</tr>
 						
 						<tr style="border: 10px solid transparent">
-						<td style="text-align:right"><h5 style="display:inline">생년월일ㅤ</h5></td>
+						<td style="text-align:right"><h5 style="display:inline"> 생년월일ㅤ</h5></td>
 						<td>	
 						<FORM name="Form1">
 						<select name="selectYear" id="selectedYear" style="width: 100px;">
@@ -152,6 +177,29 @@ function monthDay(sMonth) {
 					        
 					      </select>
 					      </FORM> 
+						</td>
+						</tr>
+						<tr style="border: 10px solid transparent">
+						<td style="text-align:right"><h5 style="display:inline"> 키 / 몸무게ㅤ </h5></td>
+						<td><select name="selectYear" id="selectedYear" style="width: 100px;">
+							<option value=""> 키 </option>
+							<script>
+               					document.write(WriteHeightOptions(70));
+       						</script></select>
+       						 ㅤ 
+       						<select name="selectYear" id="selectedYear" style="width: 100px;">
+							<option value=""> 몸무게 </option>
+							<script>
+               					document.write(WriteWeightOptions(100));
+       						</script></select>
+                		</td>
+						<tr style="border: 10px solid transparent">
+						<td style="text-align:right"><h5 style="display:inline"> 운동목적ㅤ </h5></td>
+						<td>
+							<input type="radio" name="purpose" value="n1"> 전신 운동 <br>
+                        	<input type="radio" name="purpose" value="n2"> 코어 강화 <br>
+                        	<input type="radio" name="purpose" value="n3"> 하체 강화 <br>
+                        	<input type="radio" name="purpose" value="n4"> 상체 강화 <br>
 						</td>
 						</tr>
 					</table>

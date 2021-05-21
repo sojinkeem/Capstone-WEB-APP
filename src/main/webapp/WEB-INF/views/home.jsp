@@ -5,6 +5,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Favicons, 홈 페이지 아이콘 -->
+<link rel="icon" href="resources/images/favicon.ico">
+
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />

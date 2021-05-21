@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>Workout</title>
 </head>
 <body>
 	<nav>
@@ -27,7 +27,7 @@
 			</p>
 			<br>
 			<p>
-				<a href="${pageContext.request.contextPath}pt"><h1>오늘의 운동</h1></a><br>
+				<a href="${pageContext.request.contextPath}/pt"><h1>오늘의 운동</h1></a><br>
 				<h3>PT는 피티</h3>
 			</p>
 
